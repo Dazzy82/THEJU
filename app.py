@@ -8,7 +8,7 @@ st.title('SPAM HAM CLASSIFIER')
 ip = st.text_input('Enter your text :')
 
 op = model_nb.predict([ip])
-if st.button('PREDICT'):
+if st.button('Predict'):
   st.title(op[0])
   
 
@@ -17,7 +17,7 @@ if st.button('PREDICT'):
   
            
     
-    
+      
     
     
          
